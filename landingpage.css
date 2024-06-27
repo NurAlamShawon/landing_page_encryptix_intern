@@ -1,0 +1,222 @@
+
+.upper_div{
+   background-image: url(thirdpic.jpg);
+   height:450px; 
+   background-size:cover;
+
+}
+.heading{
+   
+    color:white;
+    size: 40px;
+    padding-left: 5%;
+}
+
+.heading1{
+
+    color: black;
+    size: 40px;
+    padding-left:70%;
+}
+.first_line{
+    color: black;
+    padding-top: 50px;
+    padding-left: 15%;
+
+}
+
+
+.first_line .tooltip_text{
+    visibility: hidden;
+    position: absolute;
+    padding: 5px 0;
+    border-radius: 6px;
+    top: 75px;
+    left: 310px;
+   
+}
+.first_line:hover .tooltip_text{
+    visibility: visible;
+    color: rgb(150, 150, 150);
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.second_line{
+   
+    padding-left: 25%;
+
+}
+
+
+
+
+
+.paragraph{
+  padding-left: 5%;
+  color: white;
+
+}
+.join_button{
+    margin-left: 20%;
+    margin-bottom: 5%;
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+.join_button:hover{
+    margin-left: 20%;
+    margin-bottom: 5%;
+    background-color: #03784d  ;
+    border: black dotted 1px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+
+}
+
+
+
+
+
+.lower_div{
+
+    background-color: #939393 ;
+    border:#939393  solid 30px; 
+    text-align: center;
+    
+}
+.one{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2.5%;
+    margin-left: 12%;
+    border-radius: 12px;
+}
+.two{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2.5%;
+    margin-left: 32%;
+    border-radius: 12px;
+}
+.three{
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2.5%;
+    margin-left: 32%;
+    border-radius: 12px;
+   
+}
+.para1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 11%;
+}
+.para2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30.85%;
+}
+.para3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30.5%;
+}
+.para10{
+    margin-left: 8%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    size: 10px;
+    
+}
+.para20{
+    margin-left: 16%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    size: 10px;
+    
+   
+}
+.para30{
+    margin-left: 17%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    size: 10px;
+    
+    
+}
+
+.fb{
+    height: 35px;
+    width: 35px;
+}
+.msg{
+    height: 35px;
+    width: 35px;
+}
+.link{
+    height: 35px;
+    width: 35px;
+}
+.wp{
+    height: 35px;
+    width: 35px;
+}
+.footer{
+    
+    padding: 3%;
+    background-color: #1e1f23;
+}
+.social{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.contact{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-right: 20px;
+    float: right;
+    color: white;
+
+}
+.support{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 20px;
+    float: right;
+    color: white;
+    
+}
+.contact:hover{
+    
+    text-decoration: underline;
+    color: rgb(228, 224, 224)
+
+
+}
+.support:hover{
+
+    
+    text-decoration: underline;
+    color: rgb(228, 224, 224)
+
+}
+.wp:hover{
+    zoom: 1.2;
+}
+.msg:hover{
+    zoom: 1.2;
+}
+.fb:hover{
+    zoom: 1.2;
+}
+.link:hover{
+    zoom: 1.2;
+}
+
+
