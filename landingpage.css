@@ -1,5 +1,6 @@
+
 .upper_div {
-    background-image: url(thirdpic.jpg);
+    background-image: url(bg1.jpg);
     height: 450px;
     width: 100%;
     background-size: cover;
@@ -64,90 +65,134 @@
 
 }
 
-
-
-
-
-.lower_div {
-
-    background-color: #939393;
-    border: #939393 solid 30px;
-    text-align: center;
-
-
-
-}
-
 .table {
+    margin-top: 80px;
     width: 100%;
-    height: 100px;
+    height: 200px;
     text-align: center;
+    margin-bottom: 100px;
+   border-spacing: 15px;
+ 
 }
 
-.one {
-    font-size: 20px;
-    background-color: rgb(104, 104, 104);
+.table td{
+
+    background-image: url(bg3.png);
+    border-radius: 10px;
+    background-size: cover;
+}
+
+
+.para {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 17px;
+   font-weight: bold;
+   color: white;
+}
+
+
+
+
+.mid_div{
+    height: 500px;
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+    background-image: url(bg2.png);
+   background-size: cover;
+}
+.why{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+.example1{
+    height: auto;
+    width: 500px;
+    float: left;
+    margin-left: 80px;
+    border-radius: 30px;
+}
+.des{
+    margin-right: 70px;
+    padding: 60px;
+    padding-top: 80px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    height: auto;
+    width: 550px;
+    float:right;
+  
+   border-radius: 55px;
+}
+
+.mid_div2{
+    margin-top: 80px;
+    height: 680px;
+    width: 100%;
+    text-align: center;
+
+   
+}
+.offer{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+   
+}
+
+.offer_des{
+    margin: 35px;
+    float: left;
+    padding: 30px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    height: 180px;
+    width: 280px;
+    border-radius: 25px;
+    box-shadow: 10px 10px gray;;
+}
+
+
+.mid_div3{
+    height: 500px;
+    width: 100%;
+    background-image: url(bg3.png);
+    background-size: cover;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.why2{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
-    border-radius: 12px;
 }
-
-.two {
-    background-color: rgb(104, 104, 104);
+.example2{
+    height: auto;
+    width: 550px;
+    float: right;
+    margin-right: 60px;
+    border-radius: 20px;
+}
+.des2{
+    margin-left: 80px;
+    padding: 50px;
+    padding-top: 80px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
-    border-radius: 12px;
+    height: auto;
+    width: 550px;
+    float:left;
+   border-radius: 35px;
+  
 }
-
-.three {
-    background-color: rgb(104, 104, 104);
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
-    border-radius: 12px;
-
-}
-
-.para1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
-}
-
-.para2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
-}
-
-.para3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
-}
-
-.para10 {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    size: 10px;
-
-}
-
-.para20 {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    size: 10px;
-
-
-}
-
-.para30 {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    size: 10px;
-
-
-}
-
 .fb {
     height: 35px;
     width: 35px;
@@ -194,6 +239,12 @@
     color: white;
 
 }
+.address{
+    margin-left: 40%;
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .contact:hover {
 
@@ -217,9 +268,5 @@
 }
 
 .fb:hover {
-    zoom: 1.2;
-}
-
-.link:hover {
     zoom: 1.2;
 }
